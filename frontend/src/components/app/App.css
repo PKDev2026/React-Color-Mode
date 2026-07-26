@@ -42,3 +42,19 @@ body,
 .theme-button:active {
   transform: scale(0.98);
 }
+
+.app {
+  min-height: 100vh;
+  padding: 1.25rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
