@@ -3,6 +3,10 @@ import { useTheme } from '../../contexts/ThemeContext'
 import './App.css'
 
 function App() {
+  /* 
+    This allows for the app and its downstream components to have access to the 
+    theme state and the toggleTheme function to change the theme through click of a button
+  */
   const { theme, toggleTheme } = useTheme();
 
   return (
